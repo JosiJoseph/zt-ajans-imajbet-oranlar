@@ -50,7 +50,7 @@ async def inspect(page, today):
           current:txt(e.querySelector('.event-now-content .bet-rate'))}));
       return {title:document.title, specials, bombs};
     }""")
-    if "imajbet" not in result["title"].lower():
+    if "imajbet" not in result["title"].replace("İ", "I").lower():
         raise ValueError("brand could not be verified")
     specials, bombs = [], []
     for row in result["specials"]:
