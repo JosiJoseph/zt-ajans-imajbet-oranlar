@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-20",
+  "status": "snapshot",
+  "source": "Kullanıcının gönderdiği SPOR ekran görüntüleri",
+  "checked_at": null,
+  "message": "20 Kasım 2026 tarihli ekran görüntülerinden aktarılan kayıtlar. Canlı site ile otomatik eşleştirme henüz doğrulanmadı; oranlar güncelliğini yitirmiş olabilir.",
+  "candidates": [
+    "imajbet1660.com",
+    "imajbet1661.com",
+    "imajbet1662.com"
+  ],
+  "specials": [
+    {
+      "group": "Cumanın Özel Bahisleri 20/11 (90 Dakika)",
+      "match": "Athletic Bilbao – Espanyol & Troyes – Le Havre",
+      "condition": "Her maç 2.5 Üst Gol & 8.5 Üst Korner",
+      "odd": "8.75"
+    },
+    {
+      "group": "Cumanın Özel Bahisleri 20/11 (90 Dakika)",
+      "match": "FC Andorra – Leganes & Nancy – Dijon",
+      "condition": "Her maç 2.5 Üst Gol & 8.5 Üst Korner",
+      "odd": "8.25"
+    },
+    {
+      "group": "Cumanın Özel Bahisleri 20/11 (90 Dakika)",
+      "match": "Bayern Munich – FC Cologne & Darmstadt – Heidenheim",
+      "condition": "Her maç 3.5 Üst Gol & 9.5 Üst Korner",
+      "odd": "7.25"
+    }
+  ],
+  "bombs": [
+    {
+      "group": "Cumanın Bomba Oranları 20/11 (90 Dakika)",
+      "match": "Athletic Bilbao ve FC Andorra",
+      "condition": "Belirtilen takımların 2 veya daha fazla farkla kazanması",
+      "previous": "7.80",
+      "current": "8.80"
+    }
+  ]
+}
