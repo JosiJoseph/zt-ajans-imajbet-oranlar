@@ -1,9 +1,9 @@
 {
   "date": "2026-11-20",
-  "status": "snapshot",
-  "source": "Kullanıcının gönderdiği SPOR ekran görüntüleri",
-  "checked_at": null,
-  "message": "20 Kasım 2026 tarihli ekran görüntülerinden aktarılan kayıtlar. Canlı site ile otomatik eşleştirme henüz doğrulanmadı; oranlar güncelliğini yitirmiş olabilir.",
+  "status": "live",
+  "source": "imajbet1660.com",
+  "checked_at": "2026-11-20T02:52:20+03:00",
+  "message": "",
   "candidates": [
     "imajbet1660.com",
     "imajbet1661.com",
@@ -12,20 +12,20 @@
   "specials": [
     {
       "group": "Cumanın Özel Bahisleri 20/11 (90 Dakika)",
-      "match": "Athletic Bilbao – Espanyol & Troyes – Le Havre",
-      "condition": "Her maç 2.5 Üst Gol & 8.5 Üst Korner",
+      "match": "Athletic Bilbao v Espanyol & Troyes v Le Havre",
+      "condition": " Her Maç 2.5 Üst Gol & 8.5 Üst Korner",
       "odd": "8.75"
     },
     {
       "group": "Cumanın Özel Bahisleri 20/11 (90 Dakika)",
-      "match": "FC Andorra – Leganes & Nancy – Dijon",
-      "condition": "Her maç 2.5 Üst Gol & 8.5 Üst Korner",
+      "match": "FC Andorra v Leganes & Nancy v Dijon",
+      "condition": " Her Maç 2.5 Üst Gol & 8.5 Üst Korner",
       "odd": "8.25"
     },
     {
       "group": "Cumanın Özel Bahisleri 20/11 (90 Dakika)",
-      "match": "Bayern Munich – FC Cologne & Darmstadt – Heidenheim",
-      "condition": "Her maç 3.5 Üst Gol & 9.5 Üst Korner",
+      "match": "Bayern Munich v FC Cologne & Darmstadt v Heidenheim",
+      "condition": " Her Maç 3.5 Üst Gol & 9.5 Üst Korner",
       "odd": "7.25"
     }
   ],
@@ -33,9 +33,24 @@
     {
       "group": "Cumanın Bomba Oranları 20/11 (90 Dakika)",
       "match": "Athletic Bilbao ve FC Andorra",
-      "condition": "Belirtilen takımların 2 veya daha fazla farkla kazanması",
+      "condition": " Belirtilen Takımların 2 veya Daha Fazla Farkla Kazanması",
       "previous": "7.80",
       "current": "8.80"
+    },
+    {
+      "group": "Cumanın Bomba Oranları 20/11 (90 Dakika)",
+      "match": "Bayern Munich ve Troyes",
+      "condition": " Gol Yemeden Kazanır",
+      "previous": "6.75",
+      "current": "7.60"
+    },
+    {
+      "group": "Cumanın Bomba Oranları 20/11 (90 Dakika)",
+      "match": "76 Igdir Belediyespor ve Al Nassr Riyadh",
+      "condition": " Her Takım ''2 veya Daha Fazla'' Gol Atar",
+      "previous": "3.30",
+      "current": "3.75"
     }
-  ]
+  ],
+  "source_url": "https://imajbet1660.com/tr/sport/bet/main"
 }
