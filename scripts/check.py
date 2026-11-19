@@ -33,7 +33,7 @@ def odds(value):
 def split_selection(value):
     match, separator, condition = clean(value).partition(",")
     if not separator or len(match) < 8 or len(condition) < 5:
-        raise ValueError("missing match or selection")
+        raise ValueError("missing match or selection: " + repr(value[:140]))
     return match, condition
 
 async def inspect(page, today):
@@ -93,6 +93,7 @@ async def main():
                     raise ValueError("unexpected redirect")
                 await page.locator("div.market-item h5.teams").first.wait_for(timeout=16000)
                 await page.locator("div.event-item.regular-view h4.teams").first.wait_for(timeout=16000)
+                await page.wait_for_timeout(7000)
                 specials,bombs = await inspect(page,now)
                 original.update({
                     "date":now.strftime("%Y-%m-%d"),
