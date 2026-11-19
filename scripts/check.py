@@ -54,12 +54,12 @@ async def inspect(page, today):
         raise ValueError("brand could not be verified")
     specials, bombs = [], []
     for row in result["specials"]:
-        if not (matching_day(row["group"], today) and "Özel Bahisleri" in row["group"]):
+        if not (matching_day(row["group"], today) and re.match(r"^(?:Pazartesinin|Salının|Çarşambanın|Perşembenin|Cumanın|Cumartesinin|Pazarın) Özel Bahisleri", row["group"])):
             continue
         match, condition = split_selection(row["selection"])
         specials.append({"group":row["group"], "match":match, "condition":condition, "odd":odds(row["odd"])})
     for row in result["bombs"]:
-        if not (matching_day(row["group"], today) and "Bomba Oranları" in row["group"]):
+        if not (matching_day(row["group"], today) and re.match(r"^(?:Pazartesinin|Salının|Çarşambanın|Perşembenin|Cumanın|Cumartesinin|Pazarın) Bomba Oranları", row["group"])):
             continue
         match, condition = split_selection(row["selection"])
         bombs.append({"group":row["group"], "match":match, "condition":condition,
